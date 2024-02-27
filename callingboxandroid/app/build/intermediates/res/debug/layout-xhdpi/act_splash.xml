@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ring_background"
+    android:gravity="center_horizontal|bottom"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/ring_icon" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/splash_txtv_kakao"
+            android:textColor="@color/text_brown_light"
+            android:textSize="@dimen/text_big_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_txtv_ring"
+            android:textColor="@color/text_dark_gray"
+            android:textSize="@dimen/text_big_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_txtv_service_name"
+        android:textColor="@color/text_brown"
+        android:textSize="@dimen/text_normal_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="18dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_txtv_ver_"
+            android:textColor="@color/text_brown"
+            android:textSize="@dimen/text_small_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_txtv_demo01"
+            android:textColor="@color/text_brown"
+            android:textSize="@dimen/text_small_size" />
+        
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!-- <ImageView -->
+    <!-- android:layout_width="515dp" -->
+    <!-- android:layout_height="515dp" -->
+    <!-- android:src="@drawable/ring_icon" /> -->
+
+</LinearLayout><!-- From: file:/Users/willkim/Dropbox/4_Codes/Android/CallingBox/app/src/main/res/layout-xhdpi/act_splash.xml -->

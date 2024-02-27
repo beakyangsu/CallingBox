@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/willkim/Dropbox/4_Codes/Android/CallingBox/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_color">#66000000</color>
+    <color name="text_brown">#3f2315</color>
+    <color name="text_brown_light">#624434</color>
+    <color name="text_color">#dddddd</color>
+    <color name="text_dark_gray">#242221</color>
+    <color name="text_orange">#FFBF00</color>
+    <!-- From: file:/Users/willkim/Dropbox/4_Codes/Android/CallingBox/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+</resources>
